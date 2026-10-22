@@ -1,4 +1,4 @@
-"""Bounded read-only snapshot reader (Muse B, REVIEW-B compliant)."""
+"""Bounded read-only snapshot reader."""
 from __future__ import annotations
 
 import json

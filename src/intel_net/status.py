@@ -1,4 +1,4 @@
-"""Escaped status page (Muse B)."""
+"""Escaped status page."""
 from __future__ import annotations
 
 import html

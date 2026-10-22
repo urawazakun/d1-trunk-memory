@@ -1,4 +1,4 @@
-"""Deterministic signals aggregation (Muse B, REVIEW-B compliant)."""
+"""Deterministic signals aggregation."""
 from __future__ import annotations
 
 import math

@@ -1,0 +1,21 @@
+{
+  "db_path": "data/intel-net.db",
+  "vault_dir": "examples/vault-docs",
+  "chunk_dir": "data/chunks",
+  "mirror_dir": "data/mirror",
+  "snapshot_dir": "data/signals",
+  "question_bank": "examples/questions.yaml",
+  "assets_path": "examples/assets.json",
+  "receipt_path": "data/cutover-receipt.json",
+  "base_url": "http://127.0.0.1:8101",
+  "inference_enabled": false,
+  "concurrency": 1,
+  "batch_size": 8,
+  "trunk_limit": 20,
+  "ingest_limit": 1000,
+  "window_h": 72,
+  "retention_days": 90,
+  "mirror_hour_jst": 18,
+  "quiet_minutes": 0,
+  "interval_s": 60
+}

@@ -1,0 +1,18 @@
+[project]
+name = "d1-trunk-memory"
+version = "0.1.0"
+description = "Layered memory and recall over a decision model: prefilled trunks, cheap question leaves, answer matrix, recency signals"
+requires-python = ">=3.11"
+dependencies = ["pyyaml"]
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

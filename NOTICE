@@ -1,0 +1,14 @@
+# NOTICE
+
+This repository contains no model weights. Download them separately:
+
+- d1-3B decision model by Liquid AI — model card:
+  <https://huggingface.co/LiquidAI/d1-3B>,
+  GGUF quants: <https://huggingface.co/LiquidAI/d1-3B-GGUF>.
+  Refer to the model card and its license (lfm1.0) before use.
+- `patches/d1-prefix-cache.patch` modifies llama.cpp
+  (<https://github.com/ggml-org/llama.cpp>, MIT licensed) and is
+  MIT-compatible. Upstream project and contributors retain their rights;
+  see the llama.cpp repository for its license and attributions.
+- Measured reference numbers (`benchmarks/`, `README.md`) were produced
+  with d1-3B Q4_K_M on the setup described in the README caveat.

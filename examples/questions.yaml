@@ -1,0 +1,120 @@
+schema_version: 1
+bank_version: 2026-10-10-v1
+questions:
+- question_id: market.crypto
+  group: crypto
+  subject: market
+  type: noul
+  instructions: does the text contain information about the cryptocurrency market
+    or a specific crypto asset?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: market.rates
+  group: rates
+  subject: rates
+  type: noul
+  instructions: does the text contain information about interest rates or central
+    bank policy?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: market.fx
+  group: fx
+  subject: fx
+  type: noul
+  instructions: does the text contain information about foreign exchange rates?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: market.equities
+  group: equities
+  subject: equities
+  type: noul
+  instructions: does the text contain information about equity markets?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: market.sentiment
+  group: sentiment
+  subject: market
+  type: noul
+  instructions: does the text express positive sentiment about crypto markets?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: world.conflict
+  group: world
+  subject: conflict
+  type: noul
+  instructions: does the text describe an armed conflict or geopolitical escalation?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: world.disaster
+  group: world
+  subject: disaster
+  type: noul
+  instructions: does the text describe a natural disaster?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: world.policy
+  group: world
+  subject: policy
+  type: noul
+  instructions: does the text describe a government policy or regulatory decision?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: world.outage
+  group: world
+  subject: outage
+  type: noul
+  instructions: does the text describe a major infrastructure or network outage?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: freshness.new
+  group: freshness
+  subject: event
+  type: noul
+  instructions: does the text announce a new event or development rather than ongoing background information?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: freshness.followup
+  group: freshness
+  subject: event
+  type: noul
+  instructions: does the text provide a follow-up or correction to an earlier reported
+    event?
+  options: null
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
+- question_id: world.event_type
+  group: world
+  subject: event
+  type: choice
+  instructions: Which event type is the main focus of this text? Choose the best supported
+    category.
+  options:
+    conflict: Armed conflict or geopolitical escalation
+    disaster: Natural disaster
+    outage: Infrastructure or network outage
+    policy: Government or central-bank policy
+    other: None of these event categories
+  half_life_h: 6.0
+  max_age_h: 72.0
+  active: true
